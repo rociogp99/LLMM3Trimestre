@@ -1,0 +1,22 @@
+7. How XML should look is described in the XML 1.0 W3C Recommendation. 
+   The language of the standard is somewhat technical and formal,
+   but being able to read the standard yourself is quite useful.
+   Look into the standard and answer the following questions:
+
+ a. What do comments look like in XML? (section 2.5)
+
+	Comments may appear anywhere in a document outside other markup; 
+	in addition, they may appear within the document type declaration at places allowed by the grammar.
+	They are not part of the document's character data; an XML processor may, but need not,
+	make it possible for an application to retrieve the text of comments. 
+
+ b. Can an attribute be repeated in the same element? (section 3.1)
+
+	An attribute name must not appear more than once in the same start-tag or empty-element tag.
+
+ c. Where is it stated that the element names in opening and closing tags must match?
+
+	The declaration matches children and the sequence of child elements belongs to the language generated
+	by the regular expression in the content model, with optional white space, comments and PIs 
+	(i.e. markup matching production [27] Misc) between the start-tag and the first child element, between child elements,
+	or between the last child element and the end-tag.

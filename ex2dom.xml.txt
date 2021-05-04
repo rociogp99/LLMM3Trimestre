@@ -1,0 +1,20 @@
+1.Muestra el título de los CD
+
+titulos = "";
+n = document.getElementsByTagName("TITLE").length;
+for(i = 0; i < n; i++)
+  titulos += document.getElementsByTagName("TITLE")[i].childNodes[0].nodeValue + " <br> ";
+
+2.Muestra el precio
+
+precio = "";
+n = document.getElementsByTagName("PRICE").length;
+for(i = 0; i < n; i++)
+  precio += document.getElementsByTagName("PRICE")[i].childNodes[0].nodeValue + " <br> ";
+
+3.Muestra la compañía
+
+compañía = "";
+n = document.getElementsByTagName("COMPANY").length;
+for(i = 0; i < n; i++)
+  compañía += document.getElementsByTagName("COMPANY")[i].childNodes[0].nodeValue + " <br> ";

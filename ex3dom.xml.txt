@@ -1,0 +1,55 @@
+1. Título del primer libro
+
+	document.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+2. Todos los títulos
+
+	titulos = "";
+	n = document.getElementsByTagName("TITLE").length;
+	for(i = 0; i < n; i++)
+  	titulos += document.getElementsByTagName("TITLE")[i].childNodes[0].nodeValue + " <br> ";
+
+3. Número de atributos del cuarto libro
+
+	document.getElementsByTagName("book")[3].attributes[0].lenght;
+
+4. Valor de los atributos del cuarto libro
+
+	document.getElementsByTagName("book")[3].childNodes[0].nodeValue;
+
+5. Número de autores del tercer libro
+
+	document.getElementsByTagName("book")[2].childNodes[2].lenght;
+
+6. Autores del tercer libro
+
+	document.getElementsByTagName("book")[3].childNodes[2].nodeValue;
+
+7. Muestra una tabla que muestre el título, primer autor, precio y año
+
+<table class="default">
+
+  <tr>
+
+    <td>Título</td>
+
+    <td>Primer autor</td>
+
+    <td>Precio</td>
+	<td>Año</td>
+
+  </tr>
+
+  <tr>
+
+    <th></th>
+
+    <th></th>
+
+    <th></th>
+
+	<th></th>
+
+  </tr>
+
+</table>

@@ -1,0 +1,27 @@
+1. How should an element with the name test element and the content "This is our first element!" look?
+Like this:
+
+	<?xml version='1.0' encoding='UTF-8'?>
+	<firstElement>
+	<text> This is out first element</text>
+	</firstElement>
+
+2. Please show (in xml-syntax) the hierarchy of the element book with the subelements chapters and author.  author has the further subelements name and address.
+
+	<?xml version="1.0" encoding="UTF-8"?>
+	<libros> 
+	<libro id="quijote"> 
+	<titulo>El Quijote</titulo> 
+	<autor nombre="cervantes" > </autor>
+	<descripcion>Es el mejor libro de cervantes.</descripcion> 
+	</libro>
+	</libros>
+
+3. How does an element with the name entry which has got 2 attributes: no with the value 24 and date with the value 27.10.2004 look?
+
+	<?xml version="1.0" encoding="UTF-8"?>
+	<date>
+	<day>27</day>
+	<month>10</month>
+	<year>2004</year>
+	</date>

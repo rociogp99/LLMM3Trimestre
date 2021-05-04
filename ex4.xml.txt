@@ -1,0 +1,7 @@
+<fname>Simon North</fname> 
+<from>north@synopsys.com</from>
+<tname>Nick</tname>
+<to>sintac@xs4all.nl</to>
+<subject>Hi</subject>
+<message>Hi Nick, this is just a quick message
+to say I got the material. Thanks.</message>

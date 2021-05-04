@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cd>
+	<name>Yo, minoría absoluta</name>
+	<artist>Extremoduro</artist>
+	<songs>Buitre no come alpiste</songs>
+	<year>2002</year>
+	<genre>rock</genre>
+</cd>
+<cd>
+	<name>La flaca</name>
+	<artist>Jarabe de Palo</artist>
+	<songs>La flaca</songs>
+	<year>1996</year>
+	<genre>Pop</genre>
+</cd>
+<cd>
+	<name>Thriller</name>
+	<artist>Michael Jackson</artist>
+	<songs>Thriller</songs>
+	<year>1982</year>
+	<genre>pop/rock</genre>
+</cd>
+<cd>
+	<name>Back in black</name>
+	<artist>ACDC</artist>
+	<songs>Back in black</songs>
+	<year>1980</year>
+	<genre>rock</genre>
+</cd>
+<cd>
+	<name>The Dark Side Os The Moon</name>
+	<artist>Pink Floyd</artist>
+	<songs>Money</songs>
+	<year>1973</year>
+	<genre>rock</genre>
+</cd>

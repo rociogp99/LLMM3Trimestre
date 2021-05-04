@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<letter>
+	<name>Rosa Fernández</name>
+	<addres>Calle Campofrío nº1</addres>
+	<municipality>Tharsis, Alosno</municipality>
+	<city>Huelva</city>
+	<country>Spain</country>
+	<code>21530</code>
+	<subject>BBQ on Saturday</subject>
+	<datetime>03-05-2021 14:01</datetime>
+	<text>Hi! I remind you that the barbecue is this Saturday at one in the afternoon. Do not forget! All the best.</text>
+</letter>
