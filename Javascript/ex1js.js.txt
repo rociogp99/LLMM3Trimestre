@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js01.js"></script>
+</head>
+<body>
+<h1>Mi página</h1>
+<p id="demo">Un párrafo</p>
+<button type="button" onclick="cambiaParrafo()">Cambiar párrafo</button>
+<button type="button" onclick="borraParrafo()">Borra párrafo</button>
+</body>
+</html>

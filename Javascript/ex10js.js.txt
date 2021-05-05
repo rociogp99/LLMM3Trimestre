@@ -1,0 +1,145 @@
+A. Defina una función max () que tome dos números como argumentos y devuelva el mayor de ellos. Utilice la construcción if-then-else disponible en Javascript.
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Función max (a,b) </title>
+</head>
+<body>
+ 
+<script>
+    function max(a,b) {
+        if (a>b) {
+            document.write("El número mayor es :" +a);
+        } else {
+            document.write("El número mayor es :" +b);
+        }
+    }
+ 
+    var a;
+    var b;
+    a=parseInt(prompt("Introduzca un número"));
+    b=parseInt(prompt("introduzca otro número"));
+    max(a,b);
+ 
+</script>
+ 
+</body>
+</html>
+
+B. Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
+
+function get_max(num1, num2, num3)
+{
+    var max = Math.max(num1, num2, num3);
+    return max;
+}
+
+alert(get_max(20,3,5)); // 20
+
+C. 
+
+<!DOCTYPE html>
+<html>
+
+<script>
+
+function isVowel(x) {
+
+  var result;
+
+  result = x == "A" || x == "E" || x == "I" || x == "O" || x == "U" || x == "a" || x == "e" || x == "i" || x == "o" || x == "u";
+  return result;
+}
+
+var input;
+
+do {
+  input = prompt("Enter a character ");
+  if (input.length == 1) {
+    alert(isVowel(input));
+  }
+} while (input.length != 1);
+
+
+
+</script>
+
+<body>
+
+D. 
+
+<!DOCTYPE html>
+<html>
+<script>
+function isVowel(x) {
+  return x == "A" || x == "E" || x == "I" || x == "O" || x == "U" || x == "a" || x == "e" || x == "i" || x == "o" || x == "u";
+}
+ 
+function mostrar() {
+    c = document.getElementById("text").value;
+    if (c.length > 1)
+        document.getElementById("res").innerHTML = "Debe introducir un carácter solo";
+    else if (isVowel(c))
+        document.getElementById("res").innerHTML = "Es Vocal";
+    else
+        document.getElementById("res").innerHTML = "NO Es Vocal";  
+}
+</script>
+ 
+<body>
+<p>Introduzca un carácter y pulse el botón para comprobar si es vocal</p><br>
+<input type="text" id="text" name="text"><br>
+<button onclick="mostrar()">Pulse</button><br>
+<p id="res"></p>
+</body>
+</html>
+
+
+</body>
+</html>
+
+E. 
+
+<!DOCTYPE html>
+<html>
+<head>   
+<script>
+ 
+function muestra() {
+
+    s = document.getElementById(su).value
+
+
+    
+}
+
+}
+
+ function sum() {
+
+var n1 = [1,2,3,4];
+var n2 = [2,4,6,8];
+
+for()
+
+ }
+
+</script>
+
+</head>
+ <body>
+         
+ <h2>JavaScript Functions</h2>
+         
+    <p> multiplica y suma tus numeros completamente gratis:</p>
+
+    <label for="su">suma : </label>
+    <input type="text" id="su" name="su"> 
+    <br>
+    <label for="mu"> multiplica : </label>
+    <input type="text" id="mu" name="mu"> 
+    <br>
+    <button type="button" onclick="sum()">sumar</button> 
+    </body>
+    </html>
