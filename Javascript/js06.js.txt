@@ -1,0 +1,43 @@
+(function() {
+  const quotes = [
+    {
+      quote:
+        "No se debe juzgar a un hombre por sus cualidades, sino por el uso que hace de ellas.",
+      author: "François de La Rochefoucauld "
+    },
+    {
+      quote:
+        "Vida: conjunto de pequeños dramas que todos juntos no constituyen más que una comedia.",
+      author: "Sacha Guitry"
+    },
+    {
+      quote:
+        "El que quiere arañar la luna, se arañará el corazón.",
+      author: "Federico García Lorca"
+    },
+    {
+      quote: "Se gobierna mejor a las personas por sus vicios que por sus virtudes.",
+      author: "Napoleón I"
+    },
+    {
+      quote:
+        "Los ojos de los demás son nuestras cárceles, sus pensamientos nuestras jaulas.",
+      author: "Virginia Woolf"
+    },
+    {
+      quote:
+        "El motor de la historia es la lucha de clases.",
+      author: "Karl Marx"
+    }
+  ];
+
+  const btn = document.getElementById("generate-btn");
+
+  btn.addEventListener("click", function() {
+    let random = Math.floor(Math.random() * quotes.length);
+    console.log(random);
+
+    document.getElementById("quote").textContent = quotes[random].quote;
+    document.querySelector(".author").textContent = quotes[random].author;
+  });
+})();

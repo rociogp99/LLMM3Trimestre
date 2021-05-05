@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Create a variable, assign a value to it, and display it:</p>
+
+<p id="demo"></p>
+
+<script>
+var person = "John Doe",
+carName = "Volvo",
+price = 200,
+document.getElementById("demo").innerHTML = carName;
+</script>
+
+</body>
+</html>
