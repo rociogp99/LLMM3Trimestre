@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Exercise 5</h1>
+
+<p id="demo">This is a paragraph.</p>
+
+<p>Click the buttons below to change the font style of the paragraph.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.fontStyle='Normal'">Normal</button>
+<button type="button" onclick="document.getElementById('demo').style.fontStyle='italic'">italic</button>
+<button type="button" onclick="document.getElementById('demo').style.fontStyle='oblique'">oblique</button>
+<br>
+<br>
+
+<img id="myImg" src="https://www.w3schools.com/jsref/compman.gif" width="107" height="98">
+
+<p>Click the button to change the value of the src attribute of the image.</p>
+
+<button onclick="myFunction()">Change</button>
+
+<script>
+function myFunction() {
+  document.getElementById("myImg").src = "https://www.w3schools.com/jsref/hackanm.gif";
+}
+</script>
+
+<p>Click the button to create a DIV element with a pink background color and some text.</p>
+
+<button onclick="myFunction1()">Try it</button>
+<button onclick="myFunction2()">Try it</button>
+<button onclick="myFunction3()">Try it</button>
+
+<script>
+function myFunction1() {
+  var x = document.createElement("DIV");
+  var t = document.createTextNode("This is a div element.");
+  x.setAttribute("style", "background-color: lightblue;");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+<script>
+function myFunction2() {
+  var x = document.createElement("DIV");
+  var t = document.createTextNode("This is a div element.");
+  x.setAttribute("style", "background-color: pink;");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+<script>
+function myFunction3() {
+  var x = document.createElement("DIV");
+  var t = document.createTextNode("This is a div element.");
+  x.setAttribute("style", "background-color: yellow;");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>
