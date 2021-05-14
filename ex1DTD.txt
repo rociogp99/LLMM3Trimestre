@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+    <!ELEMENT addressbook (register*)>
+    <!ELEMENT register (name, address, phone, email, age, mstatus)>
+    <!ELEMENT name (#PCDATA) >
+    <!ELEMENT address (#PCDATA) >
+    <!ELEMENT phone (#PCDATA) >
+    <!ELEMENT email (#PCDATA) >
+    <!ELEMENT age (#PCDATA) >
+    <!ELEMENT mstatus (#PCDATA) >
+]>
+
+<book>
+  <register>
+    <name>Nadya</name>
+    <address>Vázquez Núñez de Balboa</address>
+    <phone>696521358</phone>
+    <email>nyab@gmail.com</email>
+    <age>21</age>
+    <mstatus>C</mstatus>
+  </register>
+
+  <register>
+    <name>Rosalía</name>
+    <address>Campofrío 12</address>
+    <phone>683668433</phone>
+    <email>rodrol@gmail,com</email>
+    <age>22</age>
+    <mstatus>S</mstatus>
+  </register>
+</book>

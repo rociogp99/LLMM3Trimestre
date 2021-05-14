@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cd_review_list [
+    <!ELEMENT cd_review_list (cd_review*)>
+        <!ELEMENT cd_review (author*, review, cd)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT review (#PCDATA)>
+        <!ELEMENT cd (cd_author, title)>
+            <!ELEMENT cd_author (#PCDATA)>
+            <!ELEMENT title (#PCDATA)>
+]>
+<cd_review_list>
+    <cd_review>
+        <author>Joe</author>
+        <author>Dimmu Borgir</author>
+        <review>
+        I heard all of the latest reports of the forthcoming which has been since     released, Silenoz said that it was going to be the most apocalyptic and bombastic CD. To be honest, I think it's more majestic, symphonic and grandiose. ...
+        </review>
+        <cd>
+            <cd_author>Dimmu Borgir</cd_author>
+            <title>Death Cult Armageddon</title>
+        </cd>
+    </cd_review>
+    <cd_review>
+        <author>Alex</author>
+        <author>Orphanage</author>
+        <review>
+        Whoa, the Dutch team has changed quite a bit... From the beginning of the opening "Grip" you realise that the guitars and bass sound very modern, hm. Add the harsh voice of George Oosthoek and you have a completely un-atmospheric atmosphere, which...
+        </review>
+        <cd>
+            <cd_author>Orphanage</cd_author>            
+            <title>Inside</title>
+        </cd>
+    </cd_review>
+</cd_review_list>
