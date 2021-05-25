@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  <xsl:strip-space elements="*" />
+
+  <xsl:template match="universidad">
+    <html>
+      <h1><xsl:value-of select="@nombre" /></h1>
+        <xsl:attribute name="href">
+          <xsl:value-of select="@web" />
+        </xsl:attribute>
+        <xsl:value-of select="@web" /></a></p>
+      <table border="1">
+        <tr>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+        </tr>
+        <xsl:apply-templates />
+      </table>
+    </html>
+  </xsl:template>
+
+  <xsl:template match="alumno">
+    <tr>
+      <td><xsl:value-of select="nombre"/></td>
+      <td><xsl:value-of select="apellido1"/><xsl:value-of select="apellido2"/></td>
+    </tr>
+  </xsl:template>
+
+</xsl:stylesheet>
