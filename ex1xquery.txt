@@ -1,0 +1,32 @@
+1.
+	for $x in doc("catalog.xml")/catalog/product[@dept="ACC"]
+	order by $x/name
+	return $x/name
+
+2.
+	<ul>
+	{
+		for $x in doc("catalog.xml")/catalog/product[@dept="ACC"]
+		order by $x
+		return <li>{$x}</li>
+	}
+	</ul>
+
+3. 
+
+	for $x in doc("catalog.xml")/catalog/product
+		return
+			if ($x/@dept="WMN")
+		then <women>{data($x/name)}</women>
+		else <men>{data($x/name)}</men>
+
+4.
+	for $x in doc("catalog.xml")/catalog/product
+	return
+		if ($x/@dept="ACC")
+		then <accnumber>{data($x/name)}</accnumber>
+		else <cod>{data($x/name)}</cod>
+
+5.
+
+	doc("catalog.xml")/catalog/product[@dept="ACC"]
