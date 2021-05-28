@@ -1,0 +1,15 @@
+1 - //nombre
+2 - //carreras/carrera/nombre
+3 - //alumnos/alumno/nombre
+4 - //asignaturas/asignatura/nombre
+5 - //@id
+6 - //asignaturas/asignatura//@*
+7 - //alumnos/alumno[1]
+8 - //alumnos/alumno[last()-1]
+9. - alumnos/alumno[position()<3]
+10 - //asignaturas/asignatura/
+11 - //asignaturas/asignatura[@id='c01']
+12 - //carrera[creditos>200]/nombre/text()
+13 - //asignatura[creditos_teoricos>4]/nombre/text()
+14 - //carreras[carrera[nombre]/centro]/carrera
+15 - //carreras/node()
